@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Welcome Message",
+    "template": "{greeting} {firstName}, and welcome to {companyName}! Room {roomNumber} is now ready for you. Enjoy your stay, and let us know if you need anything."
+  },
+  {
+    "id": 2,
+    "name": "Check-Out Reminder",
+    "template": "{greeting} {firstName}, we hope you enjoyed your stay at {companyName}. Don't forget to check out by {checkoutTime}. Thank you for choosing us!"
+  }
+]
