@@ -1,6 +1,6 @@
 # Hotel Message Application
 
-This project is a web application that can automatically populating customizable message templates with information about a guest. 
+This project is a web application that can automatically populate customizable message templates with information about a guest. 
 
 ## Run the project
 
