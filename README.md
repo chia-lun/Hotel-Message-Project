@@ -7,11 +7,21 @@ This project is a web application that can automatically populate customizable m
 1. Clone the project and open it locally
 2. In your terminal, run
    ```
+   git checkout master // switch to master branch
+   
    npm -v // to check if you have npm install
    npm install // if not
    npm start // to run the app on your local host
    ```
-3. You should see a tab open on your local host 
+3. You should see a tab open on your local host
+4. If there is some issue related to react script or command not found, run
+   ```
+   rm -rf node_modules
+   rm -rf package-lock.json
+   npm install react-scripts
+   npm install
+   npm run start
+   ```
 
 ## Design decisions 
 ### Fetch data from local JSON files
